@@ -1,3 +1,9 @@
+/* Light house improvements.  */
+.nested-links a,
+.nested-links a:hover {
+  color: #214c85;
+}
+
 /* Used on /rpi page.  */
 .stats-table {
     border-collapse: collapse;
@@ -21,6 +27,10 @@
   min-width: 18em;
 }
 
+.page-contact .requirements {
+  color: #555 !important;
+}
+
 /* Home Page styles.  */
 .page-home {
   font-family: avenir next,avenir,sans-serif;
@@ -38,6 +48,7 @@
 
 img.portrait {
   margin-top: -240px; 
+  height: auto;
 }
 
 /* CV Print styling.  */

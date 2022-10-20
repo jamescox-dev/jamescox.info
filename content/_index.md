@@ -1,5 +1,7 @@
 ---
 title: "James Cox"
+description: "Personal home page of James Cox"
+omit_description: true
 date: 2022-10-06T11:05:48+01:00
 draft: false
 featured_image: "/images/home-hero-image.jpg"
@@ -9,7 +11,7 @@ menu:
         name: "About"
 ---
 
-<img class="portrait" src="/images/portrait/3/me-round.png" />
+<img class="portrait" src="/images/portrait/3/me-round.webp" width="512" height="512" alt="Portrait of James Cox" />
 
 Hi,
 ---

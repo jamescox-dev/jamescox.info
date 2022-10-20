@@ -5,8 +5,9 @@ theme: "ananke"
 
 params:
   custom_css: ["custom.css"]
-  site_logo: "/images/portrait/3/me-round60px.png"
+  site_logo: "/images/portrait/3/me-round60px.webp"
   background_color_class: "bg-black-90"
+  link_color_class: "black"
   ananke_socials:
     - name: github
       url: https://github.com/jamescox-dev
