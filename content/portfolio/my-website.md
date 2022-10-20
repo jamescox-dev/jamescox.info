@@ -38,11 +38,11 @@ Technologies Used
  *  **[Raspberry Pi](https://www.raspberrypi.org/)** &dash; to host the site.
  *  **[Apache](https://www.apache.org/)** &dash; as the web server.
 
- Features
- --------
-  *  **Static website** &dash; for high performance and minimal server load.
-  *  **Dynamic features** &dash; OK, so I've wrote a few dynamic features when required in **PHP**.  
-      *  The [contact](/contact) form submission page.
-      *  The server stats on the [Raspberry Pi page](/rpi).
-  *  **Customised templates and short codes** &dash; The website layout has been customised to include features I needed.
-  *  **Custom CSS for Print** &dash; My [CV](/cv) is a page on this website, but when printed is styled in a print/PDF ready format.
+Features
+--------
+ *  **Static website** &dash; for high performance and minimal server load.
+ *  **Dynamic features** &dash; OK, so I've wrote a few dynamic features when required in **PHP**.  
+     *  The [contact](/contact) form [submission page](https://github.com/jamescox-dev/jamescox.info/blob/main/static/dynamic/submit.php).
+     *  The [server stats](https://github.com/jamescox-dev/jamescox.info/blob/main/static/dynamic/stats.php) on the [Raspberry Pi page](/rpi).
+ *  **Customised templates and short codes** &dash; The website layout has been customised to include features I needed.
+ *  **Custom CSS for Print** &dash; My [CV](/cv) is a page on this website, but when printed is styled in a print/PDF ready format.
