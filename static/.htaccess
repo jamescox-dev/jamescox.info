@@ -1,0 +1,15 @@
+Options -Indexes
+
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+CheckSpelling On
+CheckCaseOnly On
+
+RewriteRule ^[Qq]/([0-9A-Za-z]+)$ /dynamic/mini-urls.php?url=$1 [NC,L]
+
+RewriteCond %{QUERY_STRING} ^(.+)$
+RewriteRule ^[Qq][Rr]$ /dynamic/qr-urls.php?url=%1 [NC,L]
+
+RewriteRule ^stats/?$ /dynamic/stats.php [L]
+RewriteRule ^contact/submit/?$ /dynamic/submit.php [L]

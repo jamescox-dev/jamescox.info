@@ -1,0 +1,9 @@
+  <footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+    <div style="text-align: center" class="center white-70">
+        &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} 
+        | Powered by <a class="hover-white white-70" href="https://gohugo.io/">Hugo</a>, and <a class="hover-white white-70" href="/rpi">Raspberry Pi</a>{{ end }}
+      <div>{{ partial "social-follow.html" . }}</div>
+      <!--<img alt="{{ .Permalink }} {{ .Title }}" src="/qr?{{ .Permalink }}" />-->
+    </div>
+  </footer>
+  

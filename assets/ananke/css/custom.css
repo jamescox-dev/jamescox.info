@@ -1,0 +1,108 @@
+/* Used on /rpi page.  */
+.stats-table {
+    border-collapse: collapse;
+}
+
+.stats-table th, .stats-table td {
+  text-align: left;
+  padding: 0.25em;
+}
+
+/* Page specific styles.  */
+.page-cv {
+  font-family: avenir next,avenir,sans-serif;
+}
+
+.page-contact {
+  font-family: avenir next,avenir,sans-serif;
+}
+
+.page-contact form {
+  min-width: 18em;
+}
+
+/* Home Page styles.  */
+.page-home {
+  font-family: avenir next,avenir,sans-serif;
+}
+
+.page-home h1 {
+  margin: 0 0 240px 0;
+}
+
+@media only screen and (min-width: 60em) {
+  .page-home h1 {
+    margin: 0 0 120px 0;
+  }  
+}
+
+img.portrait {
+  margin-top: -240px; 
+}
+
+/* CV Print styling.  */
+@media print {
+  .page-cv header, .page-cv footer {
+    display: none;
+  }
+
+  body.page-cv {
+    background-color: white !important;
+    font-family: sans-serif !important;
+    font-size: 11pt !important;
+  }
+  
+  .page-cv article {
+    padding: 0 !important;
+  }
+
+  .page-cv a {
+    text-decoration: none;
+    color: black !important;
+  }
+
+  .page-cv h1, .page-cv h2, .page-cv h3, .page-cv h4, .page-cv p, .page-cv li {
+    color: black !important;
+  }
+
+  .page-cv h1, .page-cv h2, .page-cv h3, .page-cv h4 {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.25em !important;
+    font-family: sans-serif !important;
+  }
+
+  .page-cv p, .page-cv ul {
+    margin-top: 0.25em !important;
+    margin-bottom: 0.25em !important;
+    line-height: 1.2 !important;
+  }
+
+  .page-cv h1 {
+    font-size: 1.25em !important;
+  }
+
+  .page-cv h2 {
+    font-size: 1.125em !important;
+  }
+
+  .page-cv h3 {
+    font-size: 1em;
+  }
+
+  .page-cv .cv-header {
+    text-align: center;
+  }
+
+  .page-cv .center {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .page-cv .mw7 {
+    max-width: none !important;
+  }
+
+  .page-cv .f4 {
+    font-size: 10pt !important;
+  }
+}

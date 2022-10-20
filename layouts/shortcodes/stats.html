@@ -1,0 +1,42 @@
+<table class="stats-table">
+    <tr><th>Up-time:</th><td id="stats_uptime">...</td><tr>
+    <tr><th>Memory Usage:</th><td id="stats_mem">...</td><tr>
+    <tr><th>Average Load (1min):</th><td id="stats_last1_min">...</td><tr>
+    <tr><th>Average Load (5min):</th><td id="stats_last5_min">...</td><tr>
+    <tr><th>Average Load (15min):</th><td id="stats_last15_min">...</td><tr>
+    <tr><th>CPU Temperature:</th><td id="stats_temp">...</td><tr>
+</table>
+
+<script>
+    function updateStats() {
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function() {
+        var stats = {
+            uptime: "0 days",
+            last1_min: 0.0,
+            last5_min: 0.0,
+            last15_min: 0.0,
+            memory_total: 256 * 1024,
+            memory_free: 0,
+            temp: 25.0,
+        };
+
+        try {
+            stats = Object.assign(stats, JSON.parse(this.responseText));
+        } catch (err) {}
+        
+        document.getElementById("stats_uptime").innerHTML = stats.uptime;
+        document.getElementById("stats_mem").innerHTML = ((stats.memory_total - stats.memory_free) / 1024).toFixed(0) + " MB";
+        document.getElementById("stats_last1_min").innerHTML = stats.last1_min.toFixed(2);
+        document.getElementById("stats_last5_min").innerHTML = stats.last5_min.toFixed(2);
+        document.getElementById("stats_last15_min").innerHTML = stats.last15_min.toFixed(2);
+        document.getElementById("stats_temp").innerHTML = stats.temp.toFixed(1) + "&deg;C";
+        
+        window.setTimeout(updateStats, 5000);
+        }
+        xhttp.open("GET", "/stats", true);
+        xhttp.send();
+    }
+
+    updateStats();
+</script>

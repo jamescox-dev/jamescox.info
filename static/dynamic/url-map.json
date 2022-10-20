@@ -1,0 +1,8 @@
+{
+  "forward": {
+    "BBC": "https://bbc.co.uk/"
+  },
+  "reverse": {
+    "https://bbc.co.uk/": "BBC"
+  }
+}
