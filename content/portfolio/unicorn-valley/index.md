@@ -12,7 +12,7 @@ About
 
 {{< figure src="/portfolio/unicorn-valley/feature-graphic.jpg" >}}
 
-Unicorn Valley was a project I stated to see the process of developing a simple game from start to finish.  I wanted to work through all the stages, from design, development, deployment, and maintenance.  Unicorn Valley is a casual game, with simple controls and game play.  It's graphical style is designed to mimics old children's cartoons with simple heavy out-lined graphics and bright flat colours.
+Unicorn Valley was a project I started to see the process of developing a simple game from start to finish.  I wanted to work through all the stages, from design, development, deployment, and maintenance.  Unicorn Valley is a casual game, with simple controls and game play.  It's graphical style is designed to mimic old children's cartoons with simple heavy out-lined graphics and bright flat colours.
 
 ### Links
 [Unicorn Valley on Google Play](https://play.google.com/store/apps/details?id=org.bimblewizard.unicornvalley)
@@ -49,13 +49,13 @@ The player can only move up and down.  The player automatically follows a finger
 
 {{< figure src="/portfolio/unicorn-valley/screenshots/3.jpg" >}}
 
-There are multiple characters, and level themes to unlock.  These are implement simple skins that are applied to the enemies, level geometry, backgrounds, and player.
+There are multiple characters, and level themes to unlock.  These are implemented as simple skins that are applied to the enemies, level geometry, backgrounds, and player.
 
-### Monetization Features
+### Monetisation Features
 
 {{< figure src="/portfolio/unicorn-valley/screenshots/1.jpg" >}}
 
-The game uses Google Play's API to add in-app purchases, and advertisements to the game.
+The game uses Google Play's APIs to add in-app purchases, and advertisements to the game.
 
 ### Basic 3D Effects
 

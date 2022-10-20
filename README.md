@@ -14,7 +14,7 @@ Technologies Used
 Features
 --------
  *  **Static website** &dash; for high performance and minimal server load.
- *  **Dynamic features** &dash; OK, so I've wrote a few dynamic features when required in **PHP**.  
+ *  **Dynamic features** &dash; OK, so I've wrote a few dynamic features in **PHP**.  
      *  The contact form submission page.
      *  The server stats on the Raspberry Pi page.
  *  **Customised templates and short codes** &dash; The website layout has been customised to include features I needed.

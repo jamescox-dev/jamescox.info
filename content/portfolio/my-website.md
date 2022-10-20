@@ -1,11 +1,9 @@
 ---
-# TODO:  Link features to source files once uploaded to GitHub.
-
 title: "My Website"
 date: 2022-9-20T10:21:59+01:00
 draft: false
 featured_image: "/images/rpi-hero-image.jpg"
-summary: "This website your looking at right now."
+summary: "This website you're looking at right now."
 type: "page"
 omit_title: true
 ---
@@ -25,6 +23,7 @@ Technologies Used
   <img src="/images/icons/markdown.svg" alt="Markdown Icon" style="height: 4em" />
   <img src="/images/icons/html.svg" alt="HTML Icon" style="height: 4em" />
   <img src="/images/icons/css.svg" alt="CSS Icon" style="height: 4em" />
+  <br />
   <img src="/images/icons/javascript.svg" alt="JavaScript Icon" style="height: 4em" />
   <img src="/images/icons/php.svg" alt="PHP Icon" style="height: 4em" />
   <img src="/images/rpi-logo.png" alt="Raspberry Pi Icon" style="height: 4em" />
@@ -41,7 +40,7 @@ Technologies Used
 Features
 --------
  *  **Static website** &dash; for high performance and minimal server load.
- *  **Dynamic features** &dash; OK, so I've wrote a few dynamic features when required in **PHP**.  
+ *  **Dynamic features** &dash; OK, so I've wrote a few dynamic features in **PHP**.  
      *  The [contact](/contact) form [submission page](https://github.com/jamescox-dev/jamescox.info/blob/main/static/dynamic/submit.php).
      *  The [server stats](https://github.com/jamescox-dev/jamescox.info/blob/main/static/dynamic/stats.php) on the [Raspberry Pi page](/rpi).
  *  **Customised templates and short codes** &dash; The website layout has been customised to include features I needed.
