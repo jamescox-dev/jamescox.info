@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 date: 2022-10-04T10:02:10+01:00
-draft: false
+draft: true
 menu:
   main:
     name: "CV"

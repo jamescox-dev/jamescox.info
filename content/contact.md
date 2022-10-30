@@ -13,6 +13,6 @@ body_classes: "page-contact"
 `hello, world`
 --------------
 
-Please feel free to drop me a line.  I'm currently looking for new opportunities in software development, and would love to hear from you, whether you have a question, or just want to say "hi".
+Please feel free to drop me a line.
 
 {{< form-contact action="/contact/submit" >}}

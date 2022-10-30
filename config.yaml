@@ -11,9 +11,9 @@ params:
   ananke_socials:
     - name: github
       url: https://github.com/jamescox-dev
-    - name: hackerrank
-      url: https://www.hackerrank.com/jamescox
-      label: HackerRank
+    # - name: hackerrank
+    #   url: https://www.hackerrank.com/jamescox
+    #   label: HackerRank
       
 markup:
   goldmark:
