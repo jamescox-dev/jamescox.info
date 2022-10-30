@@ -12,7 +12,7 @@ About
 -----
 I've developed this website to showcase my skills. This web site is self-hosted on an original **[Raspberry Pi](/rpi)** using **[Dynamic DNS](https://en.wikipedia.org/wiki/Dynamic_DNS)**, and as such I chose to generate a **static website**. This lightens the load on my humble web server, and makes it work on a wide range of client devices, from low-end mobile phones, to high-end desktops.  I felt this was important as I want my site to be as accessible to as broad an audience as possible.
 
-## Links
+### Links
 [Source code on GitHub](https://github.com/jamescox-dev/jamescox.info)
 
 Technologies Used

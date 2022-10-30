@@ -1,8 +1,5 @@
 ---
-# TODO:  This should be included in the portfolio section.
-# TODO:  Include pictures of the SNES.
-
-title: "GameDev Club Games"
+title: "Game Development Club Games"
 date: 2022-10-06T10:16:09+01:00
 draft: false
 type: "page"
